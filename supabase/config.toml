@@ -1,0 +1,7 @@
+project_id = "dlsxlvzubiwcsojnwzcj"
+
+[functions.create-user]
+verify_jwt = false
+
+[functions.approve-password-reset]
+verify_jwt = false

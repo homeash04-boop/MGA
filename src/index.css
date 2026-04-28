@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+* { box-sizing: border-box; }
+body { margin: 0; background: #f1f5f9; font-family: Arial, Tahoma, sans-serif; }
+input, select, textarea, button { font-family: inherit; }
+.btn { @apply px-4 py-2 rounded-xl font-bold transition; }
+.btn-primary { @apply bg-blue-600 hover:bg-blue-700 text-white; }
+.btn-dark { @apply bg-slate-800 hover:bg-slate-900 text-white; }
+.btn-red { @apply bg-red-600 hover:bg-red-700 text-white; }
+.btn-green { @apply bg-green-600 hover:bg-green-700 text-white; }
+.card { @apply bg-white border rounded-2xl shadow-sm; }
+.input { @apply border rounded-xl px-3 py-2 w-full bg-white; }
+.table-wrap { @apply bg-white border rounded-2xl overflow-x-auto; }
